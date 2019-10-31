@@ -1,4 +1,4 @@
-#NodeJS,Postgresql,MongoDB,Docker,Mocha,Mongoose e Sequelize
+# NodeJS,Postgresql,MongoDB,Docker,Mocha,Mongoose e Sequelize
 esse projeto foi feito no curso nodebr
 instale as dependencias com npm install
 o projeto foi desenvolvido utilizando:
@@ -8,7 +8,7 @@ Sequelize para utilizar potgresql como banco de dados orientado a objeto
 Mongoose para utilizar o mongodb
 Docker para utilizar as imagens imagens do mongodb e postgresql e agilizar o desenvolvimento
 
-#Docker
+# Docker
 segue abaixo os comandos para implementar as imagens do mongodb,mongoclient,postgresql e adminer
 
 docker run \
@@ -30,7 +30,7 @@ docker run \
     -d  \
     adminer
 
-##--------MONGODB
+## --------MONGODB
 
 doker run \
     --name mongodb \
